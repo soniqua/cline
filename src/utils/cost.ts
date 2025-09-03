@@ -5,7 +5,7 @@ function calculateApiCostInternal(
 	inputTokens: number, // Note: For OpenAI-style, this is non-cached tokens. For Anthropic-style, this is total input tokens.
 	outputTokens: number,
 	cacheCreationInputTokens: number,
-	cacheReadInputTokens: number,
+	cacheReadInputTokens: number, // a lil comment for some fun
 	totalInputTokensForPricing?: number, // The *total* input tokens, used for tiered pricing lookup
 	thinkingBudgetTokens?: number, // Add thinking budget info
 ): number {
